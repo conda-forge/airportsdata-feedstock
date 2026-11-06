@@ -1,5 +1,6 @@
 {% set name = "airportsdata" %}
 {% set version = "20261103" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
