@@ -1,5 +1,5 @@
 {% set name = "airportsdata" %}
-{% set version = "20261103" %}
+{% set version = "20261123" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/airportsdata-{{ version }}.tar.gz
-  sha256: 4453b8b89857a1d397ad3657b2ecc69de7f790a909560756a151acf228d613bb
+  sha256: 190d5af18f9eeaeb5d107db2741ec3ab76e972940343cdb60a3b2598f9fd05ca
 
 build:
   noarch: python
